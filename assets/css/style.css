@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Open Sans, Arial, Sans-Serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+/*Logo and Navigation Bar*/
+
+#main-heading {
+    font-family: Lato, Arila, Sans-Serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#title {
+    text-align: center;
+    font-size: 250%;
+    padding-top: 20px;
+}
+
+#nav-bar {
+    font-size: 120%;
+    margin-top: 20px;
+}
+
+#nav-bar li {
+    list-style-type: none;
+    float: right;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 50px;
+}
+
+#nav-bar a:hover {
+    text-decoration: underline;
+
+}
+
+/*Why Lease*/
+
+/*Contact Us*/
+
+/*Social Media*/
