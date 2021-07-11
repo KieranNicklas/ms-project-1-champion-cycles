@@ -88,6 +88,48 @@ body {
     color: white;
 }
 
+/*Test Section*/
+#drop-in-page {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.row {
+    position: relative;
+    height: 500px;
+    text-align: center;
+}
+
+.row a {
+    font-size: 200%;
+    text-decoration: none;
+    color: inherit;
+}
+
+#the-range-landing {
+    background: black url('../images/landing-page-images/the-range-landing.jpg')no-repeat center/ cover;
+    width: 50%;
+}
+
+#support-landing {
+    background: black url('../images/landing-page-images/support-landing.jpg')no-repeat center / cover;
+    width: 50%;
+}
+
+#about-us-landing {
+    background: black url('../images/landing-page-images/about-us-landing.jpg') no-repeat center / cover;
+    width: 50%;
+}
+
+#contact-us-landing {
+    background: black url('../images/landing-page-images/contact-us-landing.jpg') no-repeat center / cover;
+    width: 50%;
+}
+
 /*Why Lease*/
 
 /*Contact Us*/
