@@ -50,45 +50,7 @@ body {
     color: white;
 }
 
-/*Main Options*/
-#main-options {
-    width: 100%;
-    height: 200px;
-    column-count: 6;
-    column-gap: 50px;
-}
-
-.main-options-container {
-    display: flex;
-    flex-wrap: wrap; 
-    height: inherit;
-}
-
-.main-options-container img {
-    width: 100%;
-    height: inherit;
-    margin-top: 20px;
-}
-
-.main-options-text {
-    position: absolute;
-    margin: 120px 0 0 85px;
-    background-color: white;
-    padding: 5px;
-}
-
-.main-options-text a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.main-options-text a:hover {
-    text-decoration: none;
-    background-color: black;
-    color: white;
-}
-
-/*Test Section*/
+/*Drop In Page*/
 #drop-in-page {
     width: 100%;
     height: 1000px;
@@ -106,6 +68,8 @@ body {
 
 .row a {
     font-size: 200%;
+    background-color: white;
+    padding: 0 10px 10px 10px;
     text-decoration: none;
     color: inherit;
 }
@@ -130,8 +94,34 @@ body {
     width: 50%;
 }
 
-/*Why Lease*/
+/*About Us*/
+#about-us {
+    margin-top: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us-row {
+    width: 33%;
+}
+
+.about-us-row h3, p {
+    text-align: justify;
+    padding: 10px;
+}
 
 /*Contact Us*/
 
+/*The Range Page*/
+#the-range-main {
+    width: 100;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.range-row {
+    column-count: 4;
+    column-gap: 10px;
+}
 /*Social Media*/
