@@ -17,14 +17,14 @@ body {
 /*Logo and Navigation Bar*/
 
 #main-heading {
-    font-family: Lato, Arila, Sans-Serif;
+    font-family: Lato, Arial, Sans-Serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 #title {
     text-align: center;
-    font-size: 250%;
+    font-size: 300%;
     padding-top: 20px;
 }
 
@@ -58,6 +58,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    font-family: Lato, Arila, Sans-Serif;
 }
 
 .row {
@@ -66,8 +67,9 @@ body {
     text-align: center;
 }
 
+
 .row a {
-    font-size: 200%;
+    font-size: 120%;
     background-color: white;
     padding: 0 10px 10px 10px;
     text-decoration: none;
@@ -75,12 +77,12 @@ body {
 }
 
 #the-range-landing {
-    background: black url('../images/landing-page-images/the-range-landing.jpg')no-repeat center/ cover;
+    background: black url('../images/landing-page-images/the-range-landing.jpg') no-repeat center/ cover;
     width: 50%;
 }
 
 #support-landing {
-    background: black url('../images/landing-page-images/support-landing.jpg')no-repeat center / cover;
+    background: black url('../images/landing-page-images/support-landing.jpg') no-repeat center / cover;
     width: 50%;
 }
 
@@ -113,25 +115,67 @@ body {
 /*Contact Us*/
 
 /*The Range Page*/
-#the-range-main {
+.the-range-main {
     display: flex;
     flex-wrap: wrap;
     margin: 100px 75px;
 }
 
-#the-range-main h2 {
+.the-range-main h2 {
     position: absolute;
     padding: 20px;
 }
 
 .range-row {
     margin: 50px 10px 10px 10px;
+    position: relative;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+.range-row p {
+    text-align: justify;
+}
+
+.range-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.overlay {
+    top: 53.5%;
+    left: 53.5%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.range-row:hover .overlay {
+    opacity: .9;
 }
 
 .range-row img {
-    border: solid black 2px;
+    border: solid black 4px;
     margin: 10px;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.range-text .overlay button, a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+.range-text-inner {
+    margin-top: 20px;
+}
+
+.range-text-inner button{
+    margin-top: 110px;
 }
 /*Social Media*/

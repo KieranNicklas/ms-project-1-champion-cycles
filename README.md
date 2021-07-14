@@ -11,3 +11,7 @@ Unfixed Bugs:
 Deployment:
 
 Credits:
+
+1. Credit to W3Schools for demonstration how to overlay text over images for Range page https://www.w3schools.com/howto/howto_css_image_text.asp.
+
+2. Credit to W3Schools for detailing how to create a fade in overlay for Range page https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
