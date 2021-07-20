@@ -54,51 +54,45 @@ body {
 #drop-in-page {
     width: 100%;
     height: 1000px;
-    position: absolute;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 60px;
     font-family: Lato, Arila, Sans-Serif;
 }
 
-.row {
+.drop-in-outer {
     position: relative;
-    height: 50%;
-    text-align: center;
+    height: 48%;
+    width: 48%;
+    margin-left: 20px;
+    border: black solid 2px;
+    overflow: hidden;
 }
 
+.drop-in-outer img {
+    transition: transform .5s ease;
+}
 
-.row a {
-    font-size: 120%;
+.drop-in-outer:hover img{
+    transform: scale(1.1);
+}
+
+.drop-in-outer img {
+    height: 100%;
+    width: 100%;
+}
+
+.drop-in-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     background-color: white;
-    padding: 0 10px 10px 10px;
-    text-decoration: none;
-    color: inherit;
-}
-
-#the-range-landing {
-    background: black url('../images/landing-page-images/the-range-landing.jpg') no-repeat center/ cover;
-    width: 50%;
-}
-
-#support-landing {
-    background: black url('../images/landing-page-images/support-landing.jpg') no-repeat center / cover;
-    width: 50%;
-}
-
-#about-us-landing {
-    background: black url('../images/landing-page-images/about-us-landing.jpg') no-repeat center / cover;
-    width: 50%;
-}
-
-#contact-us-landing {
-    background: black url('../images/landing-page-images/contact-us-landing.jpg') no-repeat center / cover;
-    width: 50%;
+    padding: 20px;
 }
 
 /*About Us*/
 #about-us {
-    margin-top: 1100px;
     display: flex;
     flex-wrap: wrap;
 }
