@@ -71,6 +71,7 @@ body {
 
 .drop-in-outer img {
     transition: transform .5s ease;
+    opacity: .5;
 }
 
 .drop-in-outer:hover img{
@@ -87,7 +88,9 @@ body {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    background-color: white;
+    font-size: 150%;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.5);
     padding: 20px;
 }
 
@@ -95,6 +98,8 @@ body {
 #about-us {
     display: flex;
     flex-wrap: wrap;
+    height: 600px;
+    background-color: chocolate;
 }
 
 .about-us-row {
@@ -107,6 +112,68 @@ body {
 }
 
 /*Contact Us*/
+
+#contact-us {
+    height: 750px;
+    width: 100%;
+    background: url('../images/landing-page-images/contact-us-background.jpg') center / 100% 750px no-repeat;
+}
+
+#contact-us-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    margin: 115px;
+    padding: 20px;
+}
+
+#contact-us-form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-us-input {
+    background: transparent;
+    height: 30px;
+    width: 100%;
+    margin: 10px;
+    border: solid 1px black;
+}
+
+.contact-us-input:hover {
+    background:rgb(255, 255, 255, 0.5)
+}
+
+#submit-button {
+    margin: 20px 0 0 10px;
+    padding: 5px;
+    background:rgb(255, 255, 255, 0.5);
+    display: block;
+}
+
+#submit-button:hover {
+    border: solid 1px black;
+}
+
+/*Social Media*/
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+}
 
 /*The Range Page*/
 .the-range-main {
@@ -172,4 +239,21 @@ body {
 .range-text-inner button{
     margin-top: 110px;
 }
-/*Social Media*/
+
+/*The Support Page*/
+ 
+#support-main {
+    margin-top: 100px;
+}
+
+#support-main h2, p {
+    text-align: center;
+}
+
+.support-row {
+    position: relative;
+}
+
+.support-text {
+    position: absolute;
+}
