@@ -6,11 +6,11 @@
 <meta name="Description" content="A London based bicycle leasing company"/>
 <meta name="keywords" content="cycling, bicycle, bike, leasing, borrow, London">
 <link rel="stylesheet" href="assets/css/style.css">
-<title>Capital Cycles</title>
+<title>Champion Cycles</title>
 </head>
 <body>
     <header id="main-heading">
-        <h1 id="title">Capital Cycles</h1>
+        <h1 id="title">Champion Cycles</h1>
         <nav id="nav-bar">
             <ul>
                 <li>
@@ -25,56 +25,46 @@
             </ul>
         </nav>
     </header>
-<!--Drop In Images-->
+<!--Drop In Page-->
     <section id="drop-in-page">
         <div class="drop-in-outer">
-            <img src="assets/images/landing-page-images/the-range-landing.jpg" alt="">
+            <img src="assets/images/landing-page-images/hero-image.jpg" alt="">
             <div id="the-range-landing" class="row">
                 <div class="drop-in-text">
-                <a href="the-range.html">The Range</a>
-                </div>
-            </div>
-        </div>
-        <div class="drop-in-outer">
-            <img src="assets/images/landing-page-images/support-landing.jpg" alt="">
-            <div id="the-range-landing" class="row">
-                <div class="drop-in-text">
-                <a href="support.html">Support</a>
-                </div>
-            </div>
-        </div>
-        <div class="drop-in-outer">
-            <img src="assets/images/landing-page-images/about-us-landing.jpg" alt="">
-            <div id="the-range-landing" class="row">
-                <div class="drop-in-text">
-                <a href="#">About Us</a>
-                </div>
-            </div>
-        </div>
-        <div class="drop-in-outer">
-            <img src="assets/images/landing-page-images/contact-us-landing.jpg" alt="">
-            <div id="the-range-landing" class="row">
-                <div class="drop-in-text">
-                <a href="#">Contact Us</a>
+                    <h3>Champion Cycles, helping you get on the saddle!</h3>
                 </div>
             </div>
         </div>
     </section>
 <!--About Us-->
-    <section id="about-us">
+    <section class="about-us">
+        <h2>The Benefits of Cycling</h2>
         <div class="about-us-row">
-            <h3>Why Lease? <i class="far fa-question-circle"></i></h3>
-            <p>Bicylce leasing is a cost effective and flexible way of choosing a quality bike to match your cycling desire.</p>
+            <h3>Mental Health <i class="fas fa-brain"></i></h3>
+            <p>Riding a bike is relaxing. If you’re stressed at work, you can often burn it off by cycling home. And if you’re dealing with a more serious problem, cycling can help you regain some balance in your life.</p>
         </div>
-        <hr>
         <div class="about-us-row">
-            <h3>Is Leasing For Me? <i class="fas fa-biking"></i></h3>
-            <p>Leasing provides people with the opportunity to change bikes as and when they choose. For exmaple, you would have the option of returning a Mountain bike in exchange for a Road bike with the minimal of fuss.</p>
+            <h3>Strengthen the Immune System <i class="fas fa-bacteria"></i></h3>
+            <p>Numerous studies into exercise and immunity show that regular, modest cycling boosts immunity. In general, the fitter you are, the stronger your immune system.</p>
         </div>
-        <hr>
         <div class="about-us-row">
-            <h3>Why Us? <i class="fas fa-user-friends"></i></h3>
-            <p>With a great range of a variety of bicycles on offer, you can have the pick of the bunch! We provide free delivery on a day of your choosing, or you can pop in store.</p>
+            <h3>Reduce the risk of Heart Disease <i class="fas fa-heart"></i></h3>
+            <p>Cycling raises your heart rate and gets the blood pumping round your body, and it burns calories, limiting the chance of your being overweight. </p>
+        </div>
+    </section>
+    <section class="about-us">
+        <h2>What we offer</h2>
+        <div class="about-us-row">
+            <h3>A Range of Bicycles for All <i class="fas fa-biking"></i></h3>
+            <p>From Mountain bikes to Road bikes and Electric bikes, there will always be your preferred option available.</p>
+        </div>
+        <div class="about-us-row">
+            <h3>Online Support for Bicycle Maintanance <i class="fas fa-desktop"></i></h3>
+            <p>With a number of online tutorial videos, you will rarely need to take the bike to be serviced.</p>
+        </div>
+        <div class="about-us-row">
+            <h3>Flexibility Like You've Never Seen <i class="fas fa-expand-arrows-alt"></i></h3>
+            <p>Tired of using a Road bike? Trade it in for a different style any time during your leasing period.</p>
         </div>
     </section>
 <!--Contact Us-->
@@ -83,16 +73,17 @@
             <div id="contact-us-form">
                 <h2>Enquire Here!</h2>
                 <label for="fname">First Name</label>
-                <input type="text" class="contact-us-input" id="fname" name="first-name" required>
+                <input type="text" class="contact-us-input" id="fname" name="first-name" placeholder="First Name" required>
                 <label for="lname">Last Name</label>
-                <input type="text" class="contact-us-input" id="lname" name="last-name" required>
+                <input type="text" class="contact-us-input" id="lname" name="last-name" placeholder="Last Name" required>
                 <label for="email">Email Address</label>
-                <input type="email" class="contact-us-input" id="email" name="email-address" required>
+                <input type="email" class="contact-us-input" id="email" name="email-address" placeholder="Email Address" required>
                 <label for="phone-number">Phone Number (Optional)</label>
-                <input type="text" class="contact-us-input" id="phone-number" name="phone-number">
+                <input type="text" class="contact-us-input" id="phone-number" name="phone-number" placeholder="Phone Number">
                 <label for="selection">Select a Bicycle</label>
                 <select name="bicycle-selection" class="contact-us-input" id="bicycle-selection">
-                    <option value="mountain-generic">--Mountain Bikes--</option>
+                    <option value="blank"></option>
+                    <option value="mountain-generic" disabled>--Mountain Bikes--</option>
                     <option value="st-100">27.5" Mountain Bike ST 100</option>
                     <option value="st-520">27.5" Mountain Bike ST 520</option>
                     <option value="st-530">27.5" Mountain Bike ST 530</option>
@@ -101,7 +92,7 @@
                     <option value="st-900">27.5" Mountain Bike ST 900</option>
                     <option value="50-eagle">29" Mountain Bike XC 50 Eagle</option>
                     <option value="500-eagle-1x12">29" Semi Rigid Mountain Bike XC 500 Eagle 1X12</option>
-                    <option value="hyrbid-generic">--Hybrid Bikes--</option>
+                    <option value="hyrbid-generic" disabled>--Hybrid Bikes--</option>
                     <option value="100-long-distance">Hoprider 100 Long Distance Low Frame City Bike</option>
                     <option value="rc-120">RC 120 Flat Bar Disc Road Bike</option>
                     <option value="rc-520">RC 520 Flat Bar Disc Road Bike</option>
@@ -110,19 +101,19 @@
                     <option value="rt-920">Riverside RT 920 Adventure Touring Bike</option>
                     <option value="touring-520">Touring Bike Riverside Touring 520</option>
                     <option value="920-cn">Trekking Bike Riverside 920 CN</option>
-                    <option value="road-generic">--Road Bikes--</option>
+                    <option value="road-generic" disabled>--Road Bikes--</option>
                     <option value="rc-100">RC 100 Road Bike</option>
                     <option value="rc-120">RC 120 Disc Road Bike</option>
                     <option value="rc-520">RC 520 Disc Road Bike</option>
                     <option value="edr-af-105">Road Bike EDR AF 105</option>
                     <option value="regular-womens-road">Triban Regular Women's Road Bike</option>
                     <option value="womens-starter-road">Women's Starter Road Bike</option>
-                    <option value="folding-generic">--Folding Bikes--</option>
+                    <option value="folding-generic" disabled>--Folding Bikes--</option>
                     <option value="boxer-24">Boxer 24 Folding Off-Road Electric Bike 13AH</option>
                     <option value="10ah">City Speed 20" Folding Electric Bike 10AH</option>
                     <option value="oxylane-120">Folding Bike Oxylane 120</option>
                     <option value="tilt-900">Tilt 900 Folding Bike</option>
-                    <option value="electric-generic">--Electric Bikes--</option>
+                    <option value="electric-generic" disabled>--Electric Bikes--</option>
                     <option value="cardinal-fs-step">Cardinal FS Step Through Hybrid Electric Bike</option>
                     <option value="dorchester-step">Dorchester Step Through Integrated Electric City Bike</option>
                     <option value="elops-900">ELOPS 900 E High Frame Electric City Bike</option>

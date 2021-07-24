@@ -38,3 +38,7 @@ Credits:
 4. Code used from Code Institute "Love Running" walkthrough for Contact Us page and Social Media icons.
 
 5. Credit to W3Schools for detailing how to create a thumbnail for videos for Support page https://www.w3schools.com/howto/howto_css_thumbnail.asp
+
+6. Credit to W3Docs for detailing how to link anchors to divs in other pages. This allowed the creation of the link between the "Enquire Now" option on the Range page to connect to the "Contact Us" on the Home page. https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html
+
+7. Credit to W3Schools for detailing how to disable options for the Home page Contact Us section https://www.w3schools.com/tags/att_option_disabled.asp
