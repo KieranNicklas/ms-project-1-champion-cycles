@@ -22,6 +22,17 @@ This page consists of links to basic video tutorials to enable the user to solve
 Testing:
 
 Validator Testing:
+Four errors were raised for the index.html document when passed through the W3C Markup Checker and are as follows:
+    1. Element option without attribute label must not be empty (from line 85, column 43 to line 85, column 51)
+    2.  input start tag with select open. (from line 123, column 21 to line 123, column 81)
+    3.  Stray end tag select. (from line 124, column 17 to line 124, column 25)
+    4. The value of the for attribute of the label element must be the ID of a non-hidden form control. (from line 83, column 17 to line 83, column 39).
+
+Sixty Four errors were raised for the-range.html document when passed through the W3C Markup Checker and are as follows:
+    1. Bad value as illegal character in path segment: space is not allowed. This occured 32 times.
+    2. The element a must not appear as a descendant of the button element. This occured 32 times.
+
+
 
 Unfixed Bugs:
 
