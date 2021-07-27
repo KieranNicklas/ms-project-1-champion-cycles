@@ -92,7 +92,7 @@ body {
 .about-us h2 {
     position: relative;
     text-align: center;
-    font-size: 220%;
+    font-size: 200%;
 }
 
 .about-us-row {
@@ -177,7 +177,7 @@ footer {
 .the-range-main {
     display: flex;
     flex-wrap: wrap;
-    margin: 100px 75px;
+    margin: 100px 0 0 75px;
 }
 
 .the-range-main h2 {
@@ -279,3 +279,160 @@ footer {
 }
 
 /*Media Queries*/
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    .about-us-row {
+        width: 25%;
+    }
+
+    .range-row {
+        height: 300px;
+        width: 300px;
+    }
+
+    .overlay {
+        top: 54.5%;
+        left: 54.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .drop-in-outer img {
+        height: 75%;
+    }
+
+    .drop-in-text {
+        top: 65%;
+    }
+
+    #contact-us {
+        height: 750px;
+        width: 100%;
+        background: url('../images/landing-page-images/contact-us-background.jpg') center / 100% 650px no-repeat;
+        }
+
+    #contact-us-form {
+        background-color: rgba(129, 207, 246, 0.7);
+        height: 500px;
+        width: 35%;
+        position: absolute;
+        margin: 100px 50px;
+        padding: 20px;
+        }  
+
+    #support-main {
+        margin-top: 60px;
+    }
+
+    .support-main-text {
+        font-size: 70%;
+    }
+
+    .support-row img {
+        height: 150px;
+        width: 150px;
+        margin: 40px 0 0 20px;
+    }
+
+    .support-text {
+        top: 40px;
+        left: 185px;
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #title {
+        text-align: left;
+        margin-left: 20px;
+        font-size: 160%;
+        padding-top: 20px;
+    }
+
+    #nav-bar {
+        font-size: 55%;
+        margin-top: 20px;
+    }
+
+    #drop-in-page {
+        height: 350px;
+    }
+
+    .drop-in-outer img {
+        height: 75%;
+    }
+
+    .drop-in-text {
+        font-size: 60%;
+        padding: 5px;
+    }
+
+    .about-us {
+        margin-top: 10px;
+        height: 550px;
+    }
+
+    .about-us h2 {
+        font-size: 110%;
+    }
+
+    .about-us-row {
+        width: 80%;
+        font-size: 80%;
+    }
+
+    #contact-us {
+        height: 750px;
+        width: 100%;
+        background: white;
+        }
+
+    #contact-us-form {
+        margin: 50px 25px;
+        width: 75%;
+    }
+
+    .the-range-main {
+        margin: 50px 0 0 0;
+    }
+
+    .the-range-main h2 {
+        padding: 10px;
+        font-size: 100%;
+    }
+    
+    .range-row {
+        height: 250px;
+        width: 85%;
+    }
+
+    .overlay {
+        top: 55.5%;
+    }
+
+    .range-text-inner {
+        font-size: 70%;
+    }
+
+    #support-main {
+        margin-top: 60px;
+    }
+
+    .support-main-text {
+        font-size: 70%;
+    }
+
+    .support-row img {
+        height: 100px;
+        width: 100px;
+        margin: 40px 0 0 20px;
+    }
+
+    .support-text {
+        top: 30px;
+        left: 135px;
+        font-size: 70%;
+    }
+}
