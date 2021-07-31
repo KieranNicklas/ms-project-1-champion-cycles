@@ -2,31 +2,38 @@ Champion Cycles is a bicycle leasing company aimed at providing low cost and fle
 
 Features:
 - Navigation Bar
-
+![navigation-bar](https://user-images.githubusercontent.com/85314939/127751269-6bdf2932-ea4c-42c3-af1f-3272ac895481.PNG)
 The home page consists of a main navigation bar which is consistent throughout the website to allow for simple navigation. The navigation bar is fully responsive accross the three pages, which includes links to the Home Page, The Range Page and Support Page. This will allows the user to request different pages of the website without the need to use the 'back' button on the browser.
 
 - Landing Page
-
+![hero-image](https://user-images.githubusercontent.com/85314939/127751277-178f66b1-e9ee-47f1-ae42-23d66bfa6f8d.PNG)
 The landing page consists of a photograph with a text overlay with a short sentance to outline the websites purpose. 
 
 - About Us
-
+![about-us](https://user-images.githubusercontent.com/85314939/127751284-16ee60e6-0cfb-4013-bbfe-f5ffd082a030.PNG)
 The about us section is split into two areas: one includes the benefits of cycling and anonther is the benefits of going through the company. This will assist the user in making a snapshot decision as to whether to proceed with viewing the rest of the website.
 
 -Contact Us
-
+![contact-us](https://user-images.githubusercontent.com/85314939/127751286-7c66c671-9579-4c6d-be6c-ba1a3952ea17.PNG)
 The contact us page allows the user to start communication with Champion Cycles. The user will be asked to submit their full name and email address, with a telephone number as an optional feature. The dropdown menu includes all the bicycles that can be found on the Range page and are titled identically. This allows for a consistant viewing and the user can identify precisely which bike they are interested in.
 
 - The Range Page
-
+![the-range-page](https://user-images.githubusercontent.com/85314939/127751291-0605fb74-80dc-4a0d-b613-6b63c956f650.PNG)
 The range page consists of all the bicycles that the company can provide as part of a lease. Each bicycle image consists of the full name as detailed on the Decathlon website (https://www.decathlon.co.uk/) and a brief description of the bike. This will allow the user to get a brief idea of the style of bicycle that they wish to use. An additional feature to this mode will be the introduction of greater detail of the individual bicycles, and the option to the expand the image of the bicycle.
 
 - The Support Page
-
+![the-support-page](https://user-images.githubusercontent.com/85314939/127751295-5079308e-d5af-414d-bbc4-6fed4535402e.PNG)
 This page consists of links to basic video tutorials to enable the user to solve problems without the need to take the bike to a garage or shop. Each video possesses an image of an area on the bike to which the video relates to and a description of what the video will show. Each video, once selected, will open in a separate browser to enable the user to remain on the web page.
 
 Testing:
 Each responsive item has been tested to ensure that it opens or changes page as intended. There are no broken links between pages, each "Enquire Now" anchor opens the Contact Us section correctly, and each video link on the Support Page opens correctly in a new tab.
+
+The website was also tested through Google Chrome's Lighthouse feature under Developer Tools. These tests produced the following results:
+
+For Mobile:
+![accessibility-testing-mobile-image](https://user-images.githubusercontent.com/85314939/127751306-c7d78a84-6463-45f5-a9d8-cc08b8048c35.PNG)
+For Desktop:
+![accessibility-testing-desktop-image](https://user-images.githubusercontent.com/85314939/127751309-c218bfca-6512-4fa1-ab72-d2d3b3b9b04d.PNG)
 
 Validator Testing:
 - HTML
