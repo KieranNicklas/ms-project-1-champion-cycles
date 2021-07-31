@@ -1,3 +1,5 @@
+![am-i-responsive-screenshot](https://user-images.githubusercontent.com/85314939/127751405-a74b5b0d-abbe-4c83-b979-2cecf7e5a3de.PNG)
+
 Champion Cycles is a bicycle leasing company aimed at providing low cost and flexible ways of using a bike. The site is targeted towards individuals looking at using a bike as a preferred mode of transport and people who are looking at ditching motor vehicles for trips. Champion Cycles will be useful for the targeted individuals as it will provide comparative information regarding different styles of bikes and video content which allow individuals to complete various standards of maintenance at home. For more complex fixes, the site will offer in house assistance.
 
 Features:
