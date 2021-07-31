@@ -2,27 +2,27 @@ Champion Cycles is a bicycle leasing company aimed at providing low cost and fle
 
 Features:
 - Navigation Bar
-<img src="assets/images/readme-images/navigation-bar.png">
+
 The home page consists of a main navigation bar which is consistent throughout the website to allow for simple navigation. The navigation bar is fully responsive accross the three pages, which includes links to the Home Page, The Range Page and Support Page. This will allows the user to request different pages of the website without the need to use the 'back' button on the browser.
 
 - Landing Page
-<img src="assets/images/readme-images/hero-images.png">
+
 The landing page consists of a photograph with a text overlay with a short sentance to outline the websites purpose. 
 
 - About Us
-<img src="assets/images/readme-images/about-us.png">
+
 The about us section is split into two areas: one includes the benefits of cycling and anonther is the benefits of going through the company. This will assist the user in making a snapshot decision as to whether to proceed with viewing the rest of the website.
 
 -Contact Us
-<img src="assets/images/readme-images/contact-us.png">
+
 The contact us page allows the user to start communication with Champion Cycles. The user will be asked to submit their full name and email address, with a telephone number as an optional feature. The dropdown menu includes all the bicycles that can be found on the Range page and are titled identically. This allows for a consistant viewing and the user can identify precisely which bike they are interested in.
 
 - The Range Page
-<img src="assets/images/readme-images/the-range-page.png">
+
 The range page consists of all the bicycles that the company can provide as part of a lease. Each bicycle image consists of the full name as detailed on the Decathlon website (https://www.decathlon.co.uk/) and a brief description of the bike. This will allow the user to get a brief idea of the style of bicycle that they wish to use. An additional feature to this mode will be the introduction of greater detail of the individual bicycles, and the option to the expand the image of the bicycle.
 
 - The Support Page
-<img src="assets/images/readme-images/the-suppport-page.png">
+
 This page consists of links to basic video tutorials to enable the user to solve problems without the need to take the bike to a garage or shop. Each video possesses an image of an area on the bike to which the video relates to and a description of what the video will show. Each video, once selected, will open in a separate browser to enable the user to remain on the web page.
 
 Testing:
@@ -46,8 +46,27 @@ All Sixty eight errors have been corrected and no more errors were raised when p
 No errors were found when passing through the official (Jigsaw) Validator.
 
 Unfixed Bugs:
+One unfixed bug with regards to the contact us form submission as the storage of this information does not fall within the scope of this project. For the purpose of this project, the form submission is sent to the Code Institute form dump at https://formdump.codeinstitute.net/.
 
 Deployment:
+
+The site was developed using GitPod with a remote connection to Github.
+
+1. Once the all the code was added, the repository was saved using CTL+S.
+
+2. The changes were then add to the local git using Gitpod's terminal functions. This included "git add ." and git commit -m "Final commit for deployment".
+
+3. The Git was then pushed to Github through the terminal function "git push".
+
+A live website from the repository was then created through Github using the following steps:
+
+1. The project was searched for under the repositories section on Github.
+
+2. After selecting the Champion Cycles repository, navigate to the settings tab
+
+3. Select the "Pages" option located within a self-contained window left on screen
+
+4. Under "Source", select the Branch as "Master", and in this case, the file as "Root" before selecting save. This then generated the live site.
 
 Credits:
 - Code
